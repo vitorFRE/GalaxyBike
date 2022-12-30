@@ -2,11 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 import { device } from './BreakPoints';
 
 const GlobalStyles = createGlobalStyle`
-.container {
-  max-width: 1200px;
-  padding: 0 1rem;
-  margin: 0 auto;
-}
 //Reset 
 * {
   box-sizing: border-box;
@@ -49,7 +44,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #87CEEB;
+  background-color: #FFFF00;
   border-radius: 5px;
 }
 
@@ -81,24 +76,6 @@ img {
   line-height: 1.5;
 }
 
-@media ${device.sm} {
-  .t1 {
-    font-size: 4rem;
-    line-height: 1.2;
-  }
-  .t2 {
-    font-size: 3rem;
-    line-height: 1.3;
-  }
-  .p1 {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-  .p2 {
-    font-size: 0.9rem;
-    line-height: 1.3;
-  }
-}
 
 @media ${device.md} {
   .t1 {
@@ -119,6 +96,24 @@ img {
   }
 }
 
+@media ${device.sm} {
+  .t1 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+  .t2 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+  .p1 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .p2 {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+}
 `;
 
 export default GlobalStyles;

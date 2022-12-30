@@ -10,6 +10,11 @@ const theme = {
     White: '#ffffff',
     Bg: '##B8B8AB',
   },
+  container: {
+    maxWidth: '1200px',
+    padding: '0 1rem',
+    margin: '0 auto',
+  },
 };
 
 type Props = {
