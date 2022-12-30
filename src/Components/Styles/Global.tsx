@@ -14,8 +14,9 @@ const GlobalStyles = createGlobalStyle`
 }
 body {
   margin: 0px;
-  color:#fff;
+  padding:0px;
   font-family: 'Inter', sans-serif;
+  background-color: #B8B8AB;
 }
 a {
   text-decoration: none;
@@ -119,3 +120,5 @@ img {
 }
 
 `;
+
+export default GlobalStyles;
