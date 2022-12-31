@@ -23,7 +23,7 @@ export const Header = () => {
           </button>
           <motion.ul
             style={{ display: isOpen ? 'flex' : '' }}
-            className={`b2`}
+            className={`p2`}
             layout
             animate={{ x: '0%' }}
             transition={{ duration: 0.3 }}
