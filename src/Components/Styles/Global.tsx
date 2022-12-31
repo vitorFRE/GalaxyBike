@@ -2,6 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 import { device } from './BreakPoints';
 
 const GlobalStyles = createGlobalStyle`
+  .privacy-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFF00;
+  z-index: 9999;
+}
+
 //Reset 
 * {
   box-sizing: border-box;

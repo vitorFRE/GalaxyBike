@@ -9,23 +9,25 @@ export const Footer = () => {
     <ContainerBg>
       <Container>
         <FooterItens>
-          <img src={Logo} alt="Logo do site" />
+          <a href="/">
+            <img src={Logo} alt="Logo do site" />
+          </a>
           <nav>
             <ul className="p2">
               <li>
                 <a href="/">Inicio</a>
               </li>
               <li>
-                <a href="/">Produtos</a>
+                <a href="/planos">Produtos</a>
               </li>
               <li>
-                <a href="/">Contato</a>
+                <a href="/contato">Contato</a>
               </li>
             </ul>
           </nav>
 
           <div>
-            <a href="/">
+            <a href="https://github.com/vitorFRE">
               <FaGithub size={24} />
             </a>
             <a href="/">
@@ -33,6 +35,9 @@ export const Footer = () => {
             </a>
           </div>
         </FooterItens>
+        <a href="/termos">
+          <span>Leia nossos termos.</span>
+        </a>
       </Container>
     </ContainerBg>
   );
@@ -47,6 +52,14 @@ const Container = styled.div`
 
   padding-top:80px;
   padding-bottom: 80px;
+
+  span {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #6d7280;
+  }
 `;
 
 const FooterItens = styled.div`
