@@ -1,4 +1,5 @@
 import React from 'react';
+import { ContactUs } from '../Components/ContactUs';
 import { Header } from '../Components/Header';
 import { Hero } from '../Components/Hero';
 import { ReviewSection } from '../Components/ReviewSection';
@@ -11,6 +12,7 @@ export const Home = () => {
       <Hero />
       <Services />
       <ReviewSection />
+      <ContactUs />
     </>
   );
 };

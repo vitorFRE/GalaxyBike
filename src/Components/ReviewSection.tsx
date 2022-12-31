@@ -33,8 +33,8 @@ export const ReviewSection = () => {
   return (
     <Container>
       <HeaderDescription
-        title="O que os nossos clientes estão dizendo"
-        text="Confira avaliações de nossos clientes sobre nossas aulas de ciclismo para iniciantes."
+        title="O que os nossos alunos estão dizendo"
+        text="Confira avaliações de nossos alunos sobre nossas aulas de ciclismo para iniciantes."
       />
 
       <Slider {...settings}>
@@ -75,6 +75,11 @@ const Container = styled.section`
     background-color: ${({ theme }) => theme.colors.Primary};
     padding: 12px;
     border-radius: 50%;
+
+    @media ${device.sm} {
+      padding: 0px;
+      background-color: transparent;
+    }
   }
 
   .prevArrow:hover,
