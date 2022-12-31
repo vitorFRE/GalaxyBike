@@ -1,0 +1,56 @@
+{
+  "termos": [
+    {
+      "id": 1,
+      "termo": "É proibido usar tecnologia de teletransporte para pular trechos da trilha."
+    },
+    {
+      "id": 2,
+      "termo": "Os ciclistas devem se registrar antes de entrar em qualquer trilha."
+    },
+    {
+      "id": 3,
+      "termo": "É proibido fazer qualquer tipo de alteração na bicicleta durante o percurso da trilha."
+    },
+    {
+      "id": 4,
+      "termo": "É proibido usar qualquer tipo de tecnologia avançada para alterar o curso da trilha."
+    },
+    {
+      "id": 5,
+      "termo": "O uso de tecnologia de propulsão a jato para acelerar nas trilhas de bike é estritamente proibido."
+    }
+  ],
+  "avaliações": [
+    {
+      "id": 1,
+      "nome": "João",
+      "avaliação": "Eu fiz a aula básica de ciclismo e foi ótima! O instrutor foi muito paciente e explicou tudo de forma clara. Eu me senti seguro e confiante quando voltei a andar de bike depois da aula."
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "avaliação": "Eu fiz a aula de ciclismo de estrada e adorei! O instrutor me ensinou tudo o que eu precisava saber para andar em grupo e me senti muito mais seguro na estrada depois da aula. Altamente recomendado!"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro",
+      "avaliação": "Eu fiz a aula de ciclismo de mountain bike e foi incrível! O instrutor me ensinou tudo o que eu precisava saber para andar na trilha e me senti muito mais seguro depois da aula. Altamente recomendado para iniciantes!"
+    },
+    {
+      "id": 4,
+      "nome": "Ana",
+      "avaliação": "Eu fiz a aula básica de ciclismo e foi ótima! O instrutor foi muito atencioso e explicou tudo de forma clara. Eu me senti muito mais seguro na bike depois da aula."
+    },
+    {
+      "id": 5,
+      "nome": "Carlos",
+      "avaliação": "Eu fiz a aula de ciclismo de estrada e foi incrível! O instrutor me ensinou tudo o que eu precisava saber para andar em grupo e me senti muito mais confiante na estrada depois da aula. Altamente recomendado para iniciantes!"
+    },
+    {
+      "id": 6,
+      "nome": "Sandra",
+      "avaliação": "Eu fiz a aula de ciclismo de mountain bike e foi ótima! O instrutor me ensinou tudo o que eu precisava saber para andar na trilha e me senti muito mais seguro depois da aula. Altamente recomendado para iniciantes!"
+    }
+  ]
+}

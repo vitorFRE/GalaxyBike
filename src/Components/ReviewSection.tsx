@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { HeaderDescription } from './Helper/HeaderDescription';
 import { ReviewSlide } from './Helper/ReviewSlide';
 import { NextArrow, PrevArrow } from './Helper/PrevNext';
-import Avaliacoes from '../Components/Helper/Avaliacoes.json';
+import Infos from '../Components/Helper/Infos.json';
 import { device } from './Styles/BreakPoints';
 
 export const ReviewSection = () => {
@@ -38,7 +38,7 @@ export const ReviewSection = () => {
       />
 
       <Slider {...settings}>
-        {Avaliacoes.map((slide) => (
+        {Infos.avaliações.map((slide) => (
           <ReviewSlide
             key={slide.id}
             ReviewText={slide.avaliação}

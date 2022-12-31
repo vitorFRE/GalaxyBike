@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Logo from '../assets/Logo.svg';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { device } from './Styles/BreakPoints';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -15,13 +16,13 @@ export const Footer = () => {
           <nav>
             <ul className="p2">
               <li>
-                <a href="/">Inicio</a>
+                <Link to="/">Inicio</Link>
               </li>
               <li>
-                <a href="/planos">Produtos</a>
+                <Link to="/planos">planos</Link>
               </li>
               <li>
-                <a href="/contato">Contato</a>
+                <Link to="/contato">Contato</Link>
               </li>
             </ul>
           </nav>
@@ -35,9 +36,9 @@ export const Footer = () => {
             </a>
           </div>
         </FooterItens>
-        <a href="/termos">
+        <Link to="/termos">
           <span>Leia nossos termos.</span>
-        </a>
+        </Link>
       </Container>
     </ContainerBg>
   );
