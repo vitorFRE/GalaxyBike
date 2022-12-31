@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Logo from '../assets/Logo.svg';
 import Seta from '../assets/Seta.svg';
-import { Button } from './Button';
+import { Button } from './Helper/Button';
 import { device } from './Styles/BreakPoints';
 import { motion } from 'framer-motion';
 import { VscChromeClose, VscMenu } from 'react-icons/vsc';
