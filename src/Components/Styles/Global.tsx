@@ -68,6 +68,13 @@ img {
   line-height: 1.5;
 }
 
+.t4 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
 .p1 {
   font-family: 'Inter', sans-serif;
   font-weight: 400;

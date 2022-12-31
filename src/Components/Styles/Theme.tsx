@@ -7,6 +7,7 @@ const theme = {
     TitleColor: '#262522',
     TextColor: '#4B4944',
     Grey: '#D3D3D3',
+    GreyBG: '#939388',
     White: '#ffffff',
     Bg: '##B8B8AB',
   },
