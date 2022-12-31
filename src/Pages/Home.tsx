@@ -5,6 +5,7 @@ import { Header } from '../Components/Header';
 import { Hero } from '../Components/Hero';
 import { ReviewSection } from '../Components/ReviewSection';
 import { Services } from '../Components/Services';
+import { EnterAnimation } from '../Components/Helper/EnterAnimation';
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <ReviewSection />
       <ContactUs />
       <Footer />
+      <EnterAnimation />
     </>
   );
 };

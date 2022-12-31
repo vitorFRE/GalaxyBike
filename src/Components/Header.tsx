@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Logo from '../assets/Logo.svg';
 import Seta from '../assets/Seta.svg';
+import { Link } from 'react-router-dom';
 import { Button } from './Helper/Button';
 import { device } from './Styles/BreakPoints';
 import { motion } from 'framer-motion';
@@ -29,18 +30,18 @@ export const Header = () => {
             transition={{ duration: 0.3 }}
           >
             <li>
-              <a href="/">Inicio</a>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="/">Planos</a>
+              <Link to="/planos">planos</Link>
             </li>
             <li>
-              <a href="/">Contato</a>
+              <Link to="/contato">Contato</Link>
             </li>
             <li>
-              <a href="/">
+              <Link to="/planos">
                 <Button text="Experimente" />
-              </a>
+              </Link>
             </li>
           </motion.ul>
         </HeaderNav>

@@ -15,7 +15,9 @@ export const Hero = () => {
         Nossas aulas são divertidas e eficazes, para que você possa aprender
         tudo o que precisa para se tornar um ciclista competente e seguro."
       />
-      <Button text="Faça o teste grátis" />
+      <a href="#teste">
+        <Button text="Faça o teste grátis" />
+      </a>
       <Image
         source="https://images.unsplash.com/photo-1528629297340-d1d466945dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1522&q=80"
         alt="Um homem está pedalando uma bicicleta em uma estrada."
