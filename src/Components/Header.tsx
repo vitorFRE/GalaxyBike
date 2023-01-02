@@ -116,7 +116,7 @@ const HeaderNav = styled.nav`
       margin-top: 77px;
       li {
         padding-bottom: 6px;
-        border-bottom: 2px solid ${({ theme }) => theme.colors.Secondary};
+        border-bottom: 2px solid ${({ theme }) => theme.colors.Primary};
         display: flex;
         align-items: center;
         justify-content: space-between;

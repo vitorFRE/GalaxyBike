@@ -82,8 +82,10 @@ const Container = styled.section`
 
 const FormContainer = styled.form`
   button {
-    width: 90%;
+    width: 100%;
+    margin-top: 20px;
   }
+
   margin: 0 auto;
   margin-bottom: 80px;
 
@@ -91,7 +93,7 @@ const FormContainer = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 580px;
+  max-width: 520px;
 
   fieldset {
     div:nth-child(3),
@@ -109,6 +111,7 @@ const FormContainer = styled.form`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    padding: 0px;
 
     input[type='text'],
     input[type='email'],
